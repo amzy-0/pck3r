@@ -1,98 +1,74 @@
 
-
-
-
-# pck3r
+![release](https://img.shields.io/badge/release-0.3-blue) ![issues](https://img.shields.io/github/issues/amzyei/pck3r) ![license](https://img.shields.io/github/license/amzyei/pck3r)
+![]()
+![]()
+![]()
+# pck3r :
 
 ![Screenshot](screenshot/pck3r.png)
 
-this program created for novice in linux   and this program, can handle almost things in ubuntu and all distributions  based on  debian(package manager : "apt")...
-this program , create by amzy0(M.Amin azimi.K) this program , can change under GPL3 license ...
-you can send me a pull request in github : https://github.com/amzy-0/pck3r and features will be added to pck3r soon ...
-good luck...
+Pck3r is a modern package manager for Ubuntu. It acts as a simple tool that helps users manage software with APT, or Advanced Package Tool. Pck3r makes installing, updating, and managing software easier with a clear interface and straightforward commands.
 
-# logo
+# logo :
 
-<pre>
-  尸⼕长㇌尺
-</pre>
-
-# help and  use
-
-<pre>
------------------------------------------
-|                                       |
-| pck3r : It is a versatile program and |
-|                                       |
-| you avoid using useless commands and  |
-|                                       |
-| it is written for Ubuntu...           |
-|                                       |
------------------------------------------
-</pre>
+    尸⼕长㇌尺
 
 
+
+# system wide installation :
+
+
+*for system wide installation :*
+
+
+$ ./setup.py
+
+
+
+
+# pck3r commands
 
 "install" command :
-    
+
     $ pck3r install "somthing" :
     {
-            nodejs,
-            python3pip,
-            java,
-            wine,
-            ohmyzsh,
-            or ...
+        nodejs,
+        ohmyzsh,
+        or...
     }
-
+    
 "clear" command :
-    
+
     $ pck3r clear:
-    {clear your terminal }
+    clear your terminali (only for fun :D)
 
-"iso" command : 
-    
-    $ pck3r iso 32/64  "somthing":
-    {
-        mint,
-        fedora,
-        gentoo,
-        or ...
-    }
+"sys" command :
 
-"dwn" command :
-    
-    $ pck3r dwn "https/http://somthing"
-    {dwn is downloader for pck3r }
+    $ pck3r sys update
+    update your oprating system
 
-"sys" command : 
-    
-    $ pck3r sys update 
-    (update your oprating system)
-    
     $ pck3r sys upgrade
-    (upgrade your oprating system)
-    
-    $ pck3r updgr
-    (both, update and upgrade (full upgrade))
+    upgrade your oprating system
 
-"term" command :
+    $ pck3r sys updgr
+    update and full-upgrade, Include snap's packages.
 
-    $ pck3r term
-    (command for run, pck3r terminal emulator)
+"pkg" command :
 
-
-# install pck3r  global 
+    $ pck3r pkg <package name>"
+    (search for packages ...)"
 
 
-$ cd install-pck3r-ubuntu/
+"update" command :
 
-$ ./installer
-
-
-# update pck3r 
+    $ pck3r update
+    update to last release from github.com/amzyei/pck3r
 
 
-$ cd updator/
 
-$ ./updator
+"version" command :
+
+    $ pck3r version
+    this command show pck3r version
+
+
